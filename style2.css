@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: url(v1.jpg);
+    font-family: cursive;
+    color: #494650;
+    cursor: url(curs.png), default;
+    background-size: auto;
+  }
+
+  #container {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  header {
+    background: rgba(255, 255, 255, 0.6) url(logo.png) no-repeat;
+    background-size: 300px;
+    background-position: 30px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 20px 1px #e66b76;
+  }
+
+  h1 {
+    text-shadow: 0 0 5px #e66b76;
+    font-size: 60px;
+  }
+  
+  #head {
+    margin-top: 30px;
+    margin-left: 33%;
+    padding-left: 20px;
+  }
+
+  nav {
+    background: rgba(255, 255, 255, 0.6);
+    height: 60px;
+    padding-top: 10px;
+    margin: 1% 0;
+    border-radius: 10px;
+    box-shadow: inset 0 0 20px 1px #e66b76;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    display: block;
+    color: #c5764a;
+  }
+  
+  nav li {
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    width: 10%;
+    height: 40px;
+    line-height: 40px;
+    transition: 1s;
+  }
+  
+  nav li:hover {
+    display: inline-block;
+    background: #ffd93b;
+    transform: translateY(6px);
+    transition: 1s;
+    box-shadow: 0 0 20px 1px #ffd93b;
+  }
+  
+  nav a:hover {
+    color: #f7f5fa;
+  }
+
+
+  main {
+    background: rgba(255, 255, 255, 0.801);
+    padding: 40px;
+   
+    margin: 1% 0;
+    box-shadow: inset 0 0 10px 1px #e66b76;
+    image-orientation: center;
+    text-align: center;
+  }
+
+  footer {
+    background:rgba(255, 255, 255, 0.801);
+    padding: 20px;
+    margin: 1% 0;
+    box-shadow: inset 0 0 20px 1px #e66b76;
+    text-align: center;
+  }
+
+  img{
+    margin: 0;
+    position: relative;
+    left: auto;
+  }
+
+  details {
+    text-align: center;
+    margin: 1% auto;
+    width: 70%;
+  }
+  
+  summary {
+    background: #e66b76;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  p{
+    text-align: justify;
+    padding: 20px;
+  }
+
+  main img {
+    margin: 40px;
+    box-shadow: 0 0 20px;
+    transition: 1s;
+  }
+  
+  main img:hover {
+    transform: scale(1.2);
+    transform: 1s;
+  }
